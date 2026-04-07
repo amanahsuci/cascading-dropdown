@@ -24,7 +24,7 @@ Below are screenshots of the application in action. These demonstrate the UI con
 
 ### 2. Active Cascading Dropdowns
 *Demonstrating the populated Sub-Category and Brand dropdowns after a category is selected.*
-<img src="./public/screenshots/cascading-action.jpeg" alt="Cascading Action" width="800" />
+<img src="./public/screenshots/cascading-action.png" alt="Cascading Action" width="800" />
 
 ### 3. Populated Product List (Filtered)
 *The product grid updates dynamically to match the specific filter criteria selected by the user.*
