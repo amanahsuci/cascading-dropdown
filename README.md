@@ -1,6 +1,6 @@
 # 🛒 Cascading Dropdown Product Catalog
 
-A premium, full-stack product filtering application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This project demonstrates an advanced implementation of cascading logic, URL state management, and a high-end **Glassmorphism** user interface.
+A premium, full-stack product filtering application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This project demonstrates an advanced implementation of cascading logic, and URL state management.
 
 ---
 
@@ -8,7 +8,6 @@ A premium, full-stack product filtering application built with **Next.js**, **Ty
 
 *   **Cascading Logic**: Intelligent dropdowns where choices in "Main Category" dynamically populate "Sub-Category," which subsequently filters the "Brand" options.
 *   **URL State Persistence**: All filter selections are synchronized with the URL search parameters, ensuring that the user's view remains consistent even after a page refresh.
-*   **Glassmorphism Design**: A modern aesthetic featuring high-blur backdrops, ghost-white backgrounds (`#F9FAFB`), and soft-tinted glows for a "pixel-perfect" UI/UX.
 *   **Dynamic Breadcrumbs**: Fully functional breadcrumb navigation that updates in real-time based on the active filter path.
 *   **Responsive Product Grid**: A compact and visually engaging product display using semantic HTML and CSS transitions.
 
