@@ -20,7 +20,7 @@ export const Loader = () => {
                 <div className="h-4 bg-white/50 rounded-md w-24"></div>
             </nav>
     
-            {/* Skeleton Filter Section (Glass Style) */}
+            {/* Skeleton Filter Section */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-6 rounded-2xl bg-zinc-100/70 backdrop-blur-md border border-white/20 shadow-xl shadow-black/5">
                 {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="space-y-3">
@@ -30,7 +30,7 @@ export const Loader = () => {
                 ))}
             </div>
     
-            {/* Skeleton Product Grid (Compact Glass Style) */}
+            {/* Skeleton Product Grid */}
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
                 <div key={i} className="flex flex-col h-full p-3 rounded-xl bg-zinc-100/70 backdrop-blur-sm border border-white/20 space-y-4 shadow-sm">

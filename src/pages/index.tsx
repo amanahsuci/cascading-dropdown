@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import db from '@/data/db.json';
 import { RootData } from '@/types';
-
-// Import Components
 import { FilterSection } from '@/components/FilterSection';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ProductCard } from '@/components/ProductCard';
@@ -19,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      await new Promise((resolve) => setTimeout(resolve, 800));~
       setData(db as RootData);
       setIsLoading(false);
     };
@@ -81,7 +79,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#F9FAFB] text-slate-900 font-sans selection:bg-blue-100">
-      {/* Subtle Background Decoration */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute -top-[10%] -right-[10%] w-[40%] h-[40%] bg-blue-50 rounded-full blur-[120px] opacity-50"></div>
         <div className="absolute top-[40%] -left-[10%] w-[30%] h-[30%] bg-indigo-50 rounded-full blur-[100px] opacity-40"></div>
