@@ -105,7 +105,6 @@ export default function Home() {
           brand={data.brands.find(b => b.id === brandId)}
         />
 
-        {/* Filter Section (Glassmorphism Styled) */}
         <FilterSection 
           categories={data.categories}
           subCategories={availableSubCategories}
